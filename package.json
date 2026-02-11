@@ -32,6 +32,7 @@
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.5",
     "eslint": "^9.25.0",
+    "pdf-parse": "^1.1.1",
     "typescript": "^5.8.3",
     "tzdata": "^1.0.44"
   }

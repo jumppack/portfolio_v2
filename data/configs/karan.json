@@ -1,0 +1,177 @@
+{
+  "person": {
+    "firstName": "Karan",
+    "lastName": "Mehta",
+    "name": "Karan Mehta",
+    "role": "Senior Software Engineer",
+    "avatar": "/images/avatar.jpg",
+    "email": "karan.mehtaus@gmail.com",
+    "location": "America/New_York",
+    "languages": ["English", "Hindi"]
+  },
+  "newsletter": {
+    "display": true,
+    "title": "Subscribe to Karan's Newsletter",
+    "description": "Weekly insights on software engineering and system design"
+  },
+  "social": [
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/in/karan-mehta-169b89148",
+      "essential": true
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "link": "https://github.com/jumppack",
+      "essential": true
+    },
+    {
+      "name": "Email",
+      "icon": "email",
+      "link": "mailto:karan.mehtaus@gmail.com",
+      "essential": true
+    }
+  ],
+  "home": {
+    "path": "/",
+    "image": "/images/og/home.jpg",
+    "label": "Home",
+    "title": "Karan Mehta's Portfolio",
+    "description": "Portfolio website showcasing my work as a Software Engineer",
+    "headline": "Software Engineer specializing in scalable systems",
+    "featured": {
+      "display": false,
+      "title": "Featured work",
+      "href": "/work/project-01"
+    },
+    "subline": "I'm Karan, a Senior Software Engineer at The MathWorks Inc, passionate about building high-quality, user-focused solutions."
+  },
+  "about": {
+    "path": "/about",
+    "label": "About",
+    "title": "About – Karan Mehta",
+    "description": "Meet Karan Mehta, Senior Software Engineer from Natick, MA",
+    "tableOfContent": {
+      "display": true,
+      "subItems": false
+    },
+    "avatar": {
+      "display": true
+    },
+    "calendar": {
+      "display": false,
+      "link": ""
+    },
+    "intro": {
+      "display": true,
+      "title": "Introduction",
+      "description": "Karan is a Senior Software Engineer based in Natick, MA. With a Master's in Computer Science from NYU and extensive experience at MathWorks and TCS, he specializes in building scalable software solutions, optimizing system performance, and mentoring teams. He is proficient in JavaScript, C++, Java, and modern web technologies like React and Node.js."
+    },
+    "work": {
+      "display": true,
+      "title": "Work Experience",
+      "experiences": [
+        {
+          "company": "The MathWorks Inc",
+          "timeframe": "Jul 2019 - Present",
+          "role": "Senior Software Engineer",
+          "achievements": [
+            "Led the design and development of scalable, high-quality, user-focused software solutions by adopting software design principles.",
+            "Analyzed user data to inform software enhancements, driving noticeable gains in feature adoption.",
+            "Meticulously engaged in peer code reviews, mentoring junior developers, and fostering a culture of continuous improvement.",
+            "Conducted thorough code audits to identify inefficiencies, implementing solutions that reduced bugs.",
+            "Facilitated regular brainstorming sessions with cross-functional teams, leading to innovative features."
+          ],
+          "images": []
+        },
+        {
+          "company": "Humanscale",
+          "timeframe": "Jan 2019 - May 2019",
+          "role": "Software Engineering Intern",
+          "achievements": [
+            "Designed and developed a simulation tool using React.js that brought down project expenses by 20%.",
+            "Implemented critical bug fixes that reduced company expenses charged by partner software company.",
+            "Created automated tests for the simulation tool, reducing testing time by 60%."
+          ],
+          "images": []
+        },
+        {
+          "company": "TATA Consultancy Services (TCS)",
+          "timeframe": "Jan 2015 - May 2017",
+          "role": "Systems Engineer",
+          "achievements": [
+            "Migrated the database server using SQL Server Integration Services (SSIS) to use the DTSX package format, reducing processing time by 40%.",
+            "Migrated the application server to open-source software, reducing project expenses by 25% and reducing vulnerabilities by 80%."
+          ],
+          "images": []
+        }
+      ]
+    },
+    "studies": {
+      "display": true,
+      "title": "Education",
+      "institutions": [
+        {
+          "name": "New York University",
+          "description": "Master's degree in Computer Science (Sep 2017 - May 2019). CGPA 3.5/4.0. Coursework: Software Engineering, Database Principles, Java, Cloud Computing, ML."
+        },
+        {
+          "name": "Guru Nanek Dev University",
+          "description": "Bachelor's degree in Electronics Engineering (Jun 2010 - May 2014). CGPA 8.2/10. Coursework: Operating Systems, Mathematics, Digital Communication."
+        }
+      ]
+    },
+    "technical": {
+      "display": true,
+      "title": "Technical skills",
+      "skills": [
+        {
+          "title": "Languages & Frameworks",
+          "description": "Javascript, C++, Java, HTML/CSS, Node.js, React.js, Typescript",
+          "tags": [
+            { "name": "JavaScript", "icon": "javascript" },
+            { "name": "React", "icon": "react" },
+            { "name": "TypeScript", "icon": "typescript" },
+            { "name": "Node.js", "icon": "node" },
+            { "name": "HTML", "icon": "html" },
+            { "name": "CSS", "icon": "css" },
+            { "name": "Java", "icon": "java" }
+          ],
+          "images": []
+        },
+        {
+          "title": "Infrastructure & Tools",
+          "description": "AWS, Docker, Kubernetes, MySQL, Git, p4v",
+          "tags": [
+            { "name": "AWS", "icon": "aws" },
+            { "name": "Docker", "icon": "docker" },
+            { "name": "MySQL", "icon": "mysql" },
+            { "name": "Git", "icon": "github" }
+          ],
+          "images": []
+        }
+      ]
+    }
+  },
+  "blog": {
+    "path": "/blog",
+    "label": "Blog",
+    "title": "Writing - Karan Mehta",
+    "description": "Thoughts on software engineering and technology"
+  },
+  "work": {
+    "path": "/work",
+    "label": "Work",
+    "title": "Projects – Karan Mehta",
+    "description": "Projects by Karan Mehta"
+  },
+  "gallery": {
+    "path": "/gallery",
+    "label": "Gallery",
+    "title": "Photo gallery – Karan Mehta",
+    "description": "A photo collection",
+    "images": []
+  }
+}

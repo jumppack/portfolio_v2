@@ -1,0 +1,129 @@
+{
+  "person": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "name": "John Doe",
+    "role": "Software Engineer",
+    "avatar": "/images/avatar.jpg",
+    "email": "john.doe@example.com",
+    "location": "America/New_York",
+    "languages": ["English", "Spanish"]
+  },
+  "newsletter": {
+    "display": true,
+    "title": "Subscribe to John's Newsletter",
+    "description": "Weekly insights on tech and engineering"
+  },
+  "social": [
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "link": "https://github.com/johndoe",
+      "essential": true
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "link": "https://linkedin.com/in/johndoe",
+      "essential": true
+    }
+  ],
+  "home": {
+    "path": "/",
+    "image": "/images/og/home.jpg",
+    "label": "Home",
+    "title": "John Doe's Portfolio",
+    "description": "Portfolio website showcasing my work as a Software Engineer",
+    "headline": "Building scalable solutions for the web",
+    "featured": {
+      "display": true,
+      "title": "Featured work",
+      "href": "/work/project-01"
+    },
+    "subline": "I'm John, a software engineer passionate about open source and cloud architecture."
+  },
+  "about": {
+    "path": "/about",
+    "label": "About",
+    "title": "About – John Doe",
+    "description": "Meet John Doe, Software Engineer from New York",
+    "tableOfContent": {
+      "display": true,
+      "subItems": false
+    },
+    "avatar": {
+      "display": true
+    },
+    "calendar": {
+      "display": true,
+      "link": "https://cal.com/johndoe"
+    },
+    "intro": {
+      "display": true,
+      "title": "Introduction",
+      "description": "John is a New York-based software engineer with a passion for building scalable systems."
+    },
+    "work": {
+      "display": true,
+      "title": "Work Experience",
+      "experiences": [
+        {
+          "company": "Tech Corp",
+          "timeframe": "2020 - Present",
+          "role": "Senior Engineer",
+          "achievements": [
+            "Led migration to microservices architecture.",
+            "Mentored junior developers."
+          ],
+          "images": []
+        }
+      ]
+    },
+    "studies": {
+      "display": true,
+      "title": "Studies",
+      "institutions": [
+        {
+          "name": "Tech University",
+          "description": "B.S. in Computer Science"
+        }
+      ]
+    },
+    "technical": {
+      "display": true,
+      "title": "Technical skills",
+      "skills": [
+        {
+          "title": "Languages",
+          "description": "TypeScript, Python, Go",
+          "tags": [
+            {
+              "name": "TypeScript",
+              "icon": "typescript"
+            }
+          ],
+          "images": []
+        }
+      ]
+    }
+  },
+  "blog": {
+    "path": "/blog",
+    "label": "Blog",
+    "title": "Writing about tech...",
+    "description": "Read what John has been up to recently"
+  },
+  "work": {
+    "path": "/work",
+    "label": "Work",
+    "title": "Projects – John Doe",
+    "description": "Design and dev projects by John Doe"
+  },
+  "gallery": {
+    "path": "/gallery",
+    "label": "Gallery",
+    "title": "Photo gallery – John Doe",
+    "description": "A photo collection by John Doe",
+    "images": []
+  }
+}

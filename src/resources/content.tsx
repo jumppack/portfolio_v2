@@ -2,303 +2,219 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  "firstName": "Karan",
+  "lastName": "Mehta",
+  "name": "Karan Mehta",
+  "role": "Software Engineer",
+  "avatar": "/images/avatar.jpg",
+  "email": "karan.mehtaus@gmail.com",
+  "location": "America/New_York",
+  "languages": [
+    "English",
+    "Hindi"
+  ]
 };
 
 const newsletter: Newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  title: <>Subscribe to Karan's Newsletter</>,
+  description: <>Weekly insights on software engineering and system design</>,
 };
 
 const social: Social = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
-  // Set essentials: true for links you want to show on the about page
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system",
-    essential: true,
+    "name": "LinkedIn",
+    "icon": "linkedin",
+    "link": "https://www.linkedin.com/in/karan-mehta-169b89148",
+    "essential": true
   },
   {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-    essential: true,
+    "name": "GitHub",
+    "icon": "github",
+    "link": "https://github.com/jumppack",
+    "essential": true
   },
   {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
-    essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: true,
-  },
-  {
-    name: "Email",
-    icon: "email",
-    link: `mailto:${person.email}`,
-    essential: true,
-  },
+    "name": "Email",
+    "icon": "email",
+    "link": "mailto:karan.mehtaus@gmail.com",
+    "essential": true
+  }
 ];
 
 const home: Home = {
   path: "/",
   image: "/images/og/home.jpg",
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  title: "Karan Mehta's Portfolio",
+  description: "Portfolio website showcasing my work as a Software Engineer",
+  headline: <>Software Engineer specializing in scalable systems</>,
   featured: {
-    display: true,
-    title: (
-      <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
-        <Line background="brand-alpha-strong" vert height="20" />
-        <Text marginRight="4" onBackground="brand-medium">
-          Featured work
-        </Text>
-      </Row>
-    ),
-    href: "/work/building-once-ui-a-customizable-design-system",
-  },
-  subline: (
-    <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
-</>
-  ),
+  "display": false,
+  "title": "Featured work",
+  "href": "/work/project-01"
+},
+  subline: <>I'm Karan, a Senior Software Engineer at The MathWorks Inc, passionate about building high-quality, user-focused solutions.</>,
 };
 
 const about: About = {
   path: "/about",
   label: "About",
-  title: `About – ${person.name}`,
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  title: "About – Karan Mehta",
+  description: "Meet Karan Mehta, Senior Software Engineer from Natick, MA",
   tableOfContent: {
-    display: true,
-    subItems: false,
-  },
+  "display": true,
+  "subItems": false
+},
   avatar: {
-    display: true,
-  },
+  "display": true
+},
   calendar: {
-    display: true,
-    link: "https://cal.com",
-  },
+  "display": false,
+  "link": ""
+},
   intro: {
     display: true,
     title: "Introduction",
-    description: (
-      <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
-      </>
-    ),
+    description: <>Karan is a Senior Software Engineer based in Natick, MA. With a Master's in Computer Science from NYU and extensive experience at MathWorks and TCS, he specializes in building scalable software solutions, optimizing system performance, and mentoring teams. He is proficient in JavaScript, C++, Java, and modern web technologies like React and Node.js.</>,
   },
   work: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Work Experience",
     experiences: [
-      {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
-        achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
+  {
+    "company": "The MathWorks Inc",
+    "timeframe": "Jul 2019 - Present",
+    "role": "Senior Software Engineer",
+    "achievements": [
+      "Led the design and development of scalable, high-quality, user-focused software solutions by adopting software design principles.",
+      "Analyzed user data to inform software enhancements, driving noticeable gains in feature adoption.",
+      "Meticulously engaged in peer code reviews, mentoring junior developers, and fostering a culture of continuous improvement.",
+      "Conducted thorough code audits to identify inefficiencies, implementing solutions that reduced bugs.",
+      "Facilitated regular brainstorming sessions with cross-functional teams, leading to innovative features."
     ],
+    "images": []
+  },
+  {
+    "company": "Humanscale",
+    "timeframe": "Jan 2019 - May 2019",
+    "role": "Software Engineering Intern",
+    "achievements": [
+      "Designed and developed a simulation tool using React.js that brought down project expenses by 20%.",
+      "Implemented critical bug fixes that reduced company expenses charged by partner software company.",
+      "Created automated tests for the simulation tool, reducing testing time by 60%."
+    ],
+    "images": []
+  },
+  {
+    "company": "TATA Consultancy Services (TCS)",
+    "timeframe": "Jan 2015 - May 2017",
+    "role": "Systems Engineer",
+    "achievements": [<>"Migrated the database server using SQL Server Integration Services (SSIS) to use the DTSX package format, reducing processing time by 40%."</>, <>"Migrated the application server to open-source software, reducing project expenses by 25% and reducing vulnerabilities by 80%."</>],
+    "images": []
+  }
+],
   },
   studies: {
-    display: true, // set to false to hide this section
-    title: "Studies",
+    display: true,
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "New York University",
+        description: <>Master's degree in Computer Science (Sep 2017 - May 2019). CGPA 3.5/4.0. Coursework: Software Engineering, Database Principles, Java, Cloud Computing, ML.</>,
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+{
+        name: "Guru Nanek Dev University",
+        description: <>Bachelor's degree in Electronics Engineering (Jun 2010 - May 2014). CGPA 8.2/10. Coursework: Operating Systems, Mathematics, Digital Communication.</>,
+      }
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
+        title: "Languages & Frameworks",
+        description: <>Javascript, C++, Java, HTML/CSS, Node.js, React.js, Typescript</>,
         tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+  {
+    "name": "JavaScript",
+    "icon": "javascript"
+  },
+  {
+    "name": "React",
+    "icon": "react"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "typescript"
+  },
+  {
+    "name": "Node.js",
+    "icon": "node"
+  },
+  {
+    "name": "HTML",
+    "icon": "html"
+  },
+  {
+    "name": "CSS",
+    "icon": "css"
+  },
+  {
+    "name": "Java",
+    "icon": "java"
+  }
+],
+        images: [],
       },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
+{
+        title: "Infrastructure & Tools",
+        description: <>AWS, Docker, Kubernetes, MySQL, Git, p4v</>,
         tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
+  {
+    "name": "AWS",
+    "icon": "aws"
+  },
+  {
+    "name": "Docker",
+    "icon": "docker"
+  },
+  {
+    "name": "MySQL",
+    "icon": "mysql"
+  },
+  {
+    "name": "Git",
+    "icon": "github"
+  }
+],
+        images: [],
+      }
     ],
   },
 };
 
 const blog: Blog = {
-  path: "/blog",
-  label: "Blog",
-  title: "Writing about design and tech...",
-  description: `Read what ${person.name} has been up to recently`,
-  // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
+  "path": "/blog",
+  "label": "Blog",
+  "title": "Writing - Karan Mehta",
+  "description": "Thoughts on software engineering and technology"
 };
 
 const work: Work = {
-  path: "/work",
-  label: "Work",
-  title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
+  "path": "/work",
+  "label": "Work",
+  "title": "Projects – Karan Mehta",
+  "description": "Projects by Karan Mehta"
 };
 
 const gallery: Gallery = {
-  path: "/gallery",
-  label: "Gallery",
-  title: `Photo gallery – ${person.name}`,
-  description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
-  images: [
-    {
-      src: "/images/gallery/horizontal-1.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-4.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-3.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-1.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-2.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-2.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-4.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-3.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-  ],
+  "path": "/gallery",
+  "label": "Gallery",
+  "title": "Photo gallery – Karan Mehta",
+  "description": "A photo collection",
+  "images": []
 };
 
 export { person, social, newsletter, home, about, blog, work, gallery };
