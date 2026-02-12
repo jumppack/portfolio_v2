@@ -7,7 +7,7 @@
     "avatar": "/images/avatar.jpg",
     "email": "karan.mehtaus@gmail.com",
     "location": "America/New_York",
-    "languages": ["English", "Hindi"]
+    "languages": ["English", "Hindi", "Punjabi", "Spanish", "Dutch"]
   },
   "newsletter": {
     "display": true,
@@ -18,7 +18,7 @@
     {
       "name": "LinkedIn",
       "icon": "linkedin",
-      "link": "https://www.linkedin.com/in/karan-mehta-169b89148",
+      "link": "https://www.linkedin.com/in/karan-mehta-169b89148/",
       "essential": true
     },
     {

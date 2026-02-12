@@ -5,13 +5,16 @@ const person: Person = {
   "firstName": "Karan",
   "lastName": "Mehta",
   "name": "Karan Mehta",
-  "role": "Software Engineer",
+  "role": "Senior Software Engineer",
   "avatar": "/images/avatar.jpg",
   "email": "karan.mehtaus@gmail.com",
   "location": "America/New_York",
   "languages": [
     "English",
-    "Hindi"
+    "Hindi",
+    "Punjabi",
+    "Spanish",
+    "Dutch"
   ]
 };
 
@@ -25,7 +28,7 @@ const social: Social = [
   {
     "name": "LinkedIn",
     "icon": "linkedin",
-    "link": "https://www.linkedin.com/in/karan-mehta-169b89148",
+    "link": "https://www.linkedin.com/in/karan-mehta-169b89148/",
     "essential": true
   },
   {
