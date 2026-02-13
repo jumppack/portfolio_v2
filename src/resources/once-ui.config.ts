@@ -1,4 +1,4 @@
-import {
+import type {
   DataStyleConfig,
   DisplayConfig,
   EffectsConfig,
@@ -11,7 +11,7 @@ import {
   SocialSharingConfig,
   StyleConfig,
 } from "@/types";
-import { home, person, social } from "./index";
+import { home, person, social } from "./content";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
 const baseURL: string = "https://jumppack.github.io/portfolio_v2";
