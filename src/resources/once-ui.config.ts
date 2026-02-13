@@ -11,10 +11,10 @@ import {
   SocialSharingConfig,
   StyleConfig,
 } from "@/types";
-import { home } from "./index";
+import { home, person, social } from "./index";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL: string = "https://demo.magic-portfolio.com";
+const baseURL: string = "https://jumppack.github.io/portfolio_v2";
 
 const routes: RoutesConfig = {
   "/": true,
@@ -187,17 +187,16 @@ const mailchimp: MailchimpConfig = {
 // default schema data
 const schema: SchemaConfig = {
   logo: "",
-  type: "Organization",
-  name: "Once UI",
+  type: "Person",
+  name: "Karan Mehta",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "karan.mehtaus@gmail.com",
 };
 
 // social links
 const sameAs: SameAsConfig = {
-  threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
+  linkedin: "https://www.linkedin.com/in/karan-mehta-169b89148/",
+  github: "https://github.com/jumppack",
 };
 
 // social sharing configuration for blog posts
