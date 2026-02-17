@@ -14,11 +14,10 @@ You can create, edit and delete projects by adding, modifying or removing `*.mdx
 The frontmatter is used to set the project's metadata: title, description, image, and tags. It's used in the project's page and in meta- and open graph tags.
 
 <CodeBlock
-    marginBottom="16"
-    codes={[
-      {
-        code:
-`---
+  marginBottom="16"
+  codes={[
+    {
+      code: `---
 title: "Developing a design system for indie creators"
 publishedAt: "2025-03-17"
 summary: "Once UI is a design system that empowers indie creators, small teams, and startups to build web applications."
@@ -32,10 +31,10 @@ team:
     linkedIn: "https://www.linkedin.com/company/once-ui/"
 link: "https://once-ui.com/"
 ---`,
-        language: "tsx",
-        label: "src/app/work/projects/project-1.mdx"
-      }
-    ]}
+      language: "tsx",
+      label: "src/app/work/projects/project-1.mdx",
+    },
+  ]}
 />
 
 ## MDX syntax
@@ -44,15 +43,14 @@ You can use MDX to write the content of your projects. It helps you write rich a
 
 ## Custom components
 
-You can use custom components in MDX files, but you need to import them first in the `src/components/mdx.tsx` file.
+You can use custom components in MDX files, but you need to import them first in the `src/components/CustomMDX.tsx` file.
 
 <CodeBlock
-    marginBottom="16"
-    highlight="11-12"
-    codes={[
-      {
-        code:
-`const components = {
+  marginBottom="16"
+  highlight="11-12"
+  codes={[
+    {
+      code: `const components = {
     p: createParagraph as any,
     h1: createHeading(1) as any,
     h2: createHeading(2) as any,
@@ -65,10 +63,10 @@ You can use custom components in MDX files, but you need to import them first in
     Table,
     CodeBlock,
 };`,
-        language: "tsx",
-        label: "src/components/mdx.tsx"
-      }
-    ]}
+      language: "tsx",
+      label: "src/components/CustomMDX.tsx",
+    },
+  ]}
 />
 
 As you can see, the `Table` and `CodeBlock` components are already imported and available for use. You can add more by simply importing them to this file and passing them to the `components` object.
