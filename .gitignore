@@ -35,3 +35,13 @@ knowledge/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# User Data
+data/configs/
+data/assets/
+data/raw/
+*.json
+!package.json
+!tsconfig.json
+!biome.json
+!.eslintrc.json
